@@ -11,7 +11,7 @@ function App() {
       <main>
         <MyTree/>
       </main>
-      <footer><h3>Thank you for feedback</h3></footer>
+      <footer><h3>Thank you for your feedback</h3></footer>
     </div>
   );
 }

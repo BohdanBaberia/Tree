@@ -1,18 +1,8 @@
 .App {
   text-align: center;
   background-color: #282c34;
+  min-width: 100vw;
   min-height: 100vh;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -25,15 +15,28 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.myButton {
+  background: none;
+  border: none;
+  color: #F0F;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.myButton:hover {
+  opacity: 90%;
+  transform: scale(1.1)
+}
+
+.bi {
+  font-size: 1.4em;
+}
+
+.list-group{
+  list-style: none;
+  border: none;
+}
+
+.list-group-item {
+  background: inherit;
+  border: none;
 }
